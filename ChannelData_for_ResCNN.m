@@ -46,4 +46,4 @@ for i=1:num_sta
 end
 
 %save(['...\Channel_f1n5_256ANTS_1000by100'],'Channel_mat')
-save(['...\Channel_f1n5_256ANTS_10by200'],'Channel_mat')
+save(['C:\ALI\GitHub\DL-CE-32\Channel_f1n5_256ANTS_10by200'],'Channel_mat')

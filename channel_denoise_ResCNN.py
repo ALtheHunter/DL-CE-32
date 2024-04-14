@@ -24,7 +24,7 @@ data_num_train=100000
 ## load channel
 H_noisy_in=zeros((data_num_train,Nx,Ny,2), dtype=float)
 H_true_out=zeros((data_num_train,Nx,Ny,2), dtype=float)
-data1 = sio.loadmat('...\\Channel_f1n5_256ANTS_1000by100')
+data1 = sio.loadmat('C:\ALI\GitHub\DL-CE-32\Channel_f1n5_256ANTS_1000by100')
 channel = data1['Channel_mat']
 for i in range(data_num_train):
     h = channel[i]
